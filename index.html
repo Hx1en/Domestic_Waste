@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Domestic Waste</title>
+
+<link rel="icon" href="images/logo.png">
+
+<style>
+body{
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    margin:0;
+    padding:0;
+}
+      header{
+    background:linear-gradient(135deg,#00a8cc,#74d4e8);
+    text-align:center;
+    color:white;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f8fb;
+    color:#1d4b66;
+}
+
+/* HEADER */
+
+header{
+    background:linear-gradient(135deg,#00a8cc,#74d4e8);
+    text-align:center;
+    color:white;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+/* NAVIGATION */
+
+nav{
+    background:#8ecae6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    padding:10px 18px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+nav a:hover{
+    background:#219ebc;
+}
+
+/* WELCOME BOX */
+
+.welcome{
+    max-width:1000px;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+/* CONTENT SECTION */
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    justify-content:center;
+    margin:40px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    flex:1;
+    min-width:350px;
+}
+nav a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+            margin: 0 20px;
+            padding: 6px 8px;
+            display: inline-block;
+            transition: background-color 0.3s ease, border-radius 0.3s ease;
+        }
+ 
+        nav a:hover{
+            animation: ease-in-out 0.6s hoverEffect 1 alternate infinite;
+            background-color: rgb(57, 124, 145);
+            border-radius: 8px;
+        }
+        .drop{
+            display: inline-block;
+            position: relative;
+        }
+ 
+        .dropdown{
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            margin-top: 5px;
+            background-color: rgb(62, 151, 202);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+            padding: 0;
+            list-style: none;
+            border-radius: 15px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+        }
+ 
+        .drop:hover .dropdown{
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+ 
+        .dropdown li{
+            display: block;
+        }
+ 
+        .dropdown li a{
+            display: block;
+            padding: 10px 12px;
+        }
+
+.card h2{
+    margin-bottom:15px;
+    color:#005f73;
+}
+
+.card ul{
+    padding-left:20px;
+}
+
+.card li{
+    margin-bottom:12px;
+}
+
+/* IMAGE */
+
+.image-box{
+    flex:1;
+    min-width:350px;
+}
+
+.image-box img{
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+/* FOOTER */
+
+footer{
+    margin-top:50px;
+    background:#005f73;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>DOMESTIC WASTE</h1>
+    <p>Simple Actions for a Sustainable Future</p>
+</header>
+
+<section class="link">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <div class="drop">
+                <a href="#">3Rs ▼</a>
+                <ul class="dropdown">
+                    <li><a href="reduce.html">Reduce</a></li>
+                    <li><a href="reuse.html">Reuse</a></li>
+                    <li><a href="recycle.html">Recycle</a></li>
+                </ul>
+            </div>
+            <a href="cause.html">Cause</a>
+            <a href="consequences.html">Consequences</a>
+            <a href="solution.html">Solution</a>
+        </nav>
+    </section>
+
+<section class="welcome">
+    <h2>Welcome to Our Website</h2>
+    <p>
+        Learn about domestic waste, its causes, consequences,
+        and simple solutions that help protect our environment.
+    </p>
+</section>
+
+<div class="container">
+
+    <div class="card">
+        <h2>What is Domestic Waste?</h2>
+
+        <p>
+         Domestic waste, otherwise known as household waste, is any sort of rubbish that is generated as a result of normal day-to-day life within a residential household.
+        </p>
+
+        <br>
+
+        <h2>How is Domestic Waste Formed?</h2>
+
+        <ul>
+            <li><b>Food Waste 🍗</b> - It includes waste such as vegetables, fruit peel, wasted meats, bones and other foods that have been chucked away.
+</li>
+            <li><b>Recyclable Waste ♻️</b> - It includes waste such as glass, hard plastics, cardboard, paper, and any other waste which can be recycled. 
+</li>
+            <li><b>General Waste 🗑️</b> - It includes contaminated waste, used paper dishes and any other usual household rubbish that cannot be recycled.
+</li>
+            <li><b>Garden Waste 🌱</b> - It includes plant materials such as flowers, weeds and grass.
+</li>
+            <li><b>Hazardous Waste ⚠️</b> - It includes batteries, non-edible oils such as car oil and waxes which is considered to be or contains hazardous materials. </li>
+        </ul>
+    </div>
+
+    <div class="image-box">
+        <img src="images/domestic waste.avif" alt="Domestic Waste">
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Domestic Waste | Project by Group - 3
+</footer>
+</body>
+</html>
